@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFEAD7402DAE28260008EEB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEAD73C2DAE28260008EEB2 /* Assets.xcassets */; };
+		EFEAD7412DAE28260008EEB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAD73D2DAE28260008EEB2 /* ContentView.swift */; };
+		EFEAD7422DAE28260008EEB2 /* SlackHeaderAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAD73E2DAE28260008EEB2 /* SlackHeaderAnimationApp.swift */; };
+		EFEAD7452DAE28480008EEB2 /* PopOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEAD7442DAE28480008EEB2 /* PopOutView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFEAD72E2DAE28190008EEB2 /* SlackHeaderAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackHeaderAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEAD73C2DAE28260008EEB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFEAD73D2DAE28260008EEB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFEAD73E2DAE28260008EEB2 /* SlackHeaderAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackHeaderAnimationApp.swift; sourceTree = "<group>"; };
+		EFEAD7442DAE28480008EEB2 /* PopOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFEAD7302DAE28190008EEB2 /* SlackHeaderAnimation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SlackHeaderAnimation;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFEAD72B2DAE28190008EEB2 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		EFEAD7252DAE28190008EEB2 = {
 			isa = PBXGroup;
 			children = (
-				EFEAD7302DAE28190008EEB2 /* SlackHeaderAnimation */,
+				EFEAD73F2DAE28260008EEB2 /* SlackHeaderAnimation */,
 				EFEAD72F2DAE28190008EEB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				EFEAD72E2DAE28190008EEB2 /* SlackHeaderAnimation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFEAD73F2DAE28260008EEB2 /* SlackHeaderAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAD7432DAE28300008EEB2 /* Helper */,
+				EFEAD73D2DAE28260008EEB2 /* ContentView.swift */,
+				EFEAD73E2DAE28260008EEB2 /* SlackHeaderAnimationApp.swift */,
+				EFEAD73C2DAE28260008EEB2 /* Assets.xcassets */,
+			);
+			path = SlackHeaderAnimation;
+			sourceTree = "<group>";
+		};
+		EFEAD7432DAE28300008EEB2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EFEAD7442DAE28480008EEB2 /* PopOutView.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFEAD7302DAE28190008EEB2 /* SlackHeaderAnimation */,
 			);
 			name = SlackHeaderAnimation;
 			packageProductDependencies = (
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEAD7402DAE28260008EEB2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFEAD7412DAE28260008EEB2 /* ContentView.swift in Sources */,
+				EFEAD7422DAE28260008EEB2 /* SlackHeaderAnimationApp.swift in Sources */,
+				EFEAD7452DAE28480008EEB2 /* PopOutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
